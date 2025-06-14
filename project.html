@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 10 passion project</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.6; margin: 2em; background: #f9f9f9; }
+    header, footer { text-align: center; }
+    h2 { border-bottom: 2px solid #ccc; padding-bottom: 0.2em; }
+    section { background: #fff; padding: 1.5em; margin-bottom: 2em; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .map-buttons { display: flex; flex-wrap: wrap; gap: 0.5em; margin-bottom: 1em; }
+    .map-buttons button { flex: 1 1 30%; min-width: 150px; padding: 0.5em; background: #0366d6; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+    .map-content { display: none; margin-top: 1em; }
+    .map-content.active { display: block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Week 10 Passion Project</h1>
+</header>
+
+<section>
+  <h2>Poem–Song Pairing</h2>
+  <h3>Poem: "Fire and Ice" by Robert Frost</h3>
+  <p>
+    Some say the world will end in fire,<br>
+    Some say in ice.<br>
+    From what I’ve tasted of desire<br>
+    I hold with those who favor fire.<br>
+    But if it had to perish twice,<br>
+    I think I know enough of hate<br>
+    To say that for destruction ice<br>
+    Is also great<br>
+    And would suffice.
+  </p>
+
+  <h3>Song: “Burn” by Ellie Goulding</h3>
+  <p>
+    I see Ellie Goulding’s “Burn” as a twist on Frost’s “Fire and Ice.” Frost warns that desire’s flames could end the world, but Goulding flips that fear into power. When Goulding says “we gonna let it burn, burn, burn,” it feels like she’s inviting everyone to shine together, even if it’s reckless. The upbeat rhythm, drums, and lines like “we don’t wanna leave, no / we just wanna be right now” show how thrilling danger can be. Both Frost and Goulding understand that fire is beautiful and also hazardous. Frost cautions us against its destruction, while Goulding lets it burn.
+  </p>
+</section>
+
+<section>
+  <h2>Hero’s Journey Travel Guide</h2>
+  <p>Click each stage to explore how it appears in <em>The Odyssey</em>:</p>
+  <div class="map-buttons">
+    <button data-stage="1">1. Ordinary World</button>
+    <button data-stage="2">2. Call to Adventure</button>
+    <button data-stage="3">3. Refusal of the Call</button>
+    <button data-stage="4">4. Meeting the Mentor</button>
+    <button data-stage="5">5. Crossing the Threshold</button>
+    <button data-stage="6">6. Tests, Allies, Enemies</button>
+    <button data-stage="7">7. Approach to the Inmost Cave</button>
+    <button data-stage="8">8. Ordeal</button>
+    <button data-stage="9">9. Reward</button>
+    <button data-stage="10">10. The Road Back</button>
+    <button data-stage="11">11. Resurrection</button>
+    <button data-stage="12">12. Return with the Elixir</button>
+  </div>
+
+  <div id="stage-1" class="map-content"><strong>Ordinary World:</strong> Odysseus lives peacefully in Ithaca with his wife Penelope and son Telemachus before the Trojan War.</div>
+  <div id="stage-2" class="map-content"><strong>Call to Adventure:</strong> Odysseus is summoned to fight at Troy, leaving behind his homeland and family.</div>
+  <div id="stage-3" class="map-content"><strong>Refusal of the Call:</strong> Odysseus feigns madness by sowing salt in his fields to avoid joining the war, but Palamedes exposes his ruse.</div>
+  <div id="stage-4" class="map-content"><strong>Meeting the Mentor:</strong> Athena intervenes, advising and aiding Odysseus with divine guidance throughout his journey.</div>
+  <div id="stage-5" class="map-content"><strong>Crossing the Threshold:</strong> After the fall of Troy, Odysseus embarks on his voyage home, entering a world ruled by gods, monsters, and supernatural forces.</div>
+  <div id="stage-6" class="map-content"><strong>Tests, Allies, Enemies:</strong> He encounters the Lotus-Eaters, outwits the Cyclops Polyphemus, receives aid from Circe, and faces the hostility of Poseidon.</div>
+  <div id="stage-7" class="map-content"><strong>Approach to the Inmost Cave:</strong> Odysseus journeys to the underworld to seek prophecy from Tiresias, confronting shades and learning his fate.</div>
+  <div id="stage-8" class="map-content"><strong>Ordeal:</strong> Shipwrecked by Poseidon’s storm, Odysseus washes ashore on Calypso’s island, where he remains a captive for years.</div>
+  <div id="stage-9" class="map-content"><strong>Reward:</strong> With Athena’s help, he secures passage from the Phaeacians, gaining the means to return home.</div>
+  <div id="stage-10" class="map-content"><strong>The Road Back:</strong> Disguised as a beggar, Odysseus returns to Ithaca and surveys the threat posed by Penelope’s suitors.</div>
+  <div id="stage-11" class="map-content"><strong>Resurrection:</strong> Revealing his identity, Odysseus slays the suitors, reclaiming his throne and restoring order.</div>
+  <div id="stage-12" class="map-content"><strong>Return with the Elixir:</strong> Peace returns to Ithaca; Odysseus reunites with his family and shares the wisdom of his adventures.</div>
+</section>
+
+<section>
+  <h2>Author’s Letter</h2>
+  <p>
+    I created this website to explore how different narratives and poems interact with each other. The poem “Fire and Ice” by Robert Frost inspired me because of its structure and depth despite its short length. It has emotional extremes, which make it very engaging. I paired it with the song “Burn” by Ellie Goulding because of the tension they create with similar themes of fire. Frost sees fire as destructive, while Goulding uses it as a symbol of power. That tension helped me understand how similar imagery can give different interpretations based on tone, rhythm, and perspective.
+  </p>
+  <p>
+    Alongside this pairing, I was inspired to include Joseph Campbell’s Hero’s Journey as an interactive feature. The monomyth appears everywhere once you start looking. Media such as myths, books, video games, and films can feature it. I wanted the site to let people “travel” through the stages, using examples from the renowned epic The Odyssey by Homer, to show how this narrative remains consistent in such an old, iconic piece. Each clickable stage highlights a turning point in the hero’s evolution, which draws attention to recurring emotional and structural moments in storytelling.
+  </p>
+  <p>
+    To make sure anyone could explore my site without trouble, I stuck with basic HTML instead of adding fancy JavaScript frameworks. That way, it loads quickly even on old phones, mobile data, or spotty Wi‑Fi. I tested each section at different screen sizes to keep the text readable, and it works out. Working within these limits is definitely good for both parties since I could deliver content in such a way that it is easy to digest by the end user.
+  </p>
+  <p>
+    In the future, I’d like to add a light/dark mode toggle to make the website a bit easier on the eyes, and maybe bring in a tiny CSS animation library to make those narrative turning points pop. I’m also thinking about adding a feedback form so visitors can suggest anything, like any changes to the website or any of their own poem/song pair ideas. Then I could build a simple recommendation feature based on real user choices. This project feels like an experiment in how stories move across different media and how each person who interacts with it becomes part of the conversation.
+  </p>
+  <p>
+    Building this project helped me see how poetry, music, and myth are all part of a storytelling tradition. They use rhythm, structure, and symbols to speak across time and culture. Using just HTML, I kept the design minimal so that the ideas could stand out. I added interactiveness to the website so it doesn't feel like reading an essay since it requires human input. I learned that pairing texts is about more than comparing themes. It’s about things like movement, contrast, and what each form brings. Whether through a 9-line poem or a pop song, stories are always being told, trying to make meaning out of emotion. I hope this project inspires others to make their own connections and see where the hero's journey applies in everyday texts.
+  </p>
+</section>
+
+<footer>
+  &copy; Week 10 Passion Project — Built with HTML
+</footer>
+
+<script>
+  document.querySelectorAll('.map-buttons button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.map-content').forEach(div => div.classList.remove('active'));
+      document.getElementById('stage-' + btn.dataset.stage).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
